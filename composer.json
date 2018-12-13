@@ -1,9 +1,12 @@
 {
-    "name": "miklcct/phpstorm_warnings",
-    "description": "This repo contains sample code which trigger PHPStorm warnings",
-    "autoload": {
-        "psr-4": {
-            "src" : "Miklcct\\PhpstormWarnings"
+    "name" : "miklcct/phpstorm_warnings",
+    "description" : "This repo contains sample code which trigger PHPStorm warnings",
+    "require" : {
+        "php" : ">=7.1"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Miklcct\\PhpstormWarnings\\" : "src/"
         }
     }
 }
