@@ -1,11 +1,7 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
-    <inspection_tool class="CallableMethodValidityInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="DateUsageInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="DuplicateArrayKeysInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="ForeachSourceInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="ForgottenDebugOutputInspection" enabled="true" level="WARNING" enabled_by_default="true">
+    <inspection_tool class="ForgottenDebugOutputInspection" enabled="true" level="ERROR" enabled_by_default="true">
       <option name="configuration">
         <list>
           <option value="\Codeception\Util\Debug::debug" />
@@ -27,6 +23,7 @@
           <option value="dpq" />
           <option value="dsm" />
           <option value="dvm" />
+          <option value="error_log" />
           <option value="kpr" />
           <option value="phpinfo" />
           <option value="print_r" />
@@ -69,35 +66,6 @@
       </option>
       <option name="migratedIntoUserSpace" value="true" />
     </inspection_tool>
-    <inspection_tool class="MkdirRaceConditionInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="NullPointerExceptionInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="OffsetOperationsInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="OnlyWritesOnParameterInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="PhpAssignmentReplaceableWithOperatorAssignmentInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
-    <inspection_tool class="PhpAssignmentReplaceableWithPrefixExpressionInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
-    <inspection_tool class="PhpDivisionByZeroInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="PhpDuplicateArrayKeysInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="PhpDuplicateCaseInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="PhpIllegalArrayKeyTypeInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="PhpIllegalStringOffsetInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="PhpIncompatibleReturnTypeInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="PhpMissingParentCallCommonInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
-    <inspection_tool class="PhpMissingParentCallMagicInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
-    <inspection_tool class="PhpMissingStrictTypesDeclarationInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="PhpParamsInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="PhpSignatureMismatchDuringInheritanceInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="PhpUndefinedCallbackInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="PhpUndefinedClassConstantInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="PhpUndefinedClassInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="PhpUndefinedConstantInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="PhpUndefinedFieldInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="PhpUndefinedFunctionInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="PhpUndefinedGotoLabelInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="PhpUndefinedMethodInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="PhpUndefinedNamespaceInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="PhpUndefinedVariableInspection" enabled="true" level="ERROR" enabled_by_default="true" />
-    <inspection_tool class="PhpUnhandledExceptionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
-    <inspection_tool class="PhpWrongForeachArgumentTypeInspection" enabled="true" level="ERROR" enabled_by_default="true" />
     <inspection_tool class="SecurityAdvisoriesInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="optionConfiguration">
         <list>
@@ -149,18 +117,5 @@
         </list>
       </option>
     </inspection_tool>
-    <inspection_tool class="SummerTimeUnsafeTimeManipulationInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="SuspiciousAssignmentsInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="SuspiciousBinaryOperationInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="SuspiciousLoopInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="SuspiciousReturnInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="SuspiciousSemicolonInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="SuspiciousTernaryOperatorInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="TypeUnsafeArraySearchInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="UntrustedInclusionInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="UnusedConstructorDependenciesInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="UnusedGotoLabelInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="UselessUnsetInspection" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="UsingInclusionOnceReturnValueInspection" enabled="true" level="WARNING" enabled_by_default="true" />
   </profile>
 </component>
